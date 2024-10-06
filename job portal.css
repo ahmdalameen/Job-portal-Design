@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.whole{
+
+    /* display: flex;
+    justify-content: space-evenly; column-gap: 500px; */
+    
+}
+body{
+    background-color:rgb(42, 98, 250) ;
+    
+}
+
+.whitebg{
+    
+    background-color: white;
+    width: 1000px;
+    /* border: 2px solid black; */
+    height: 100vh;
+    position: fixed;
+    left: 180px;
+    z-index: 0;
+}
+.a img{
+height: 120px;
+width: 900px;
+border-radius: 5px;
+position: relative;
+top: 70px;
+left: 230px;
+z-index: 1;
+
+}
+.a h1{
+    position: absolute;
+    left: 540px;
+    top: 100px; 
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 2;
+    
+}
+
+.srbar input{
+    position: absolute;
+    height: 45px;
+    width: 500px;
+    z-index:3;
+    left: 430px;
+    top: 170px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 50px rgb(28, 100, 255);
+}
+
+ .srch {
+   padding: 5px;
+   width: 80px;
+   height: 30px;
+font-size: 10px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 140, 255);
+    position: fixed;
+    z-index: 4;
+    left: 840px;
+    top: 177px;
+
+}
+
+.left{
+    position: absolute;
+    z-index: 5;
+    position: fixed;
+    left: 200px;
+    top: 280px;
+    line-height: 50px;
+    
+    
+}
+.left button{
+    border: none;
+    padding: 10px;
+    background-color: rgba(172, 172, 172, 0.473);
+    border-radius: 10px;
+    width: 100px;
+}
+.checkbox{
+    line-height: 30px;
+}
+
+.right {
+    z-index: 8;
+    position: absolute;
+}
+.nike img{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+
+
+}
+.jobs{
+    position: relative;
+    
+    
+}
+.nike{
+    display: flex;
+    
+    column-gap: 10px;
+}
+.fulltime{
+    background-color: rgba(140, 202, 161, 0.767);
+    color: green;
+    height: 20px;
+    padding: 5px;
+    
+    width: 100px;
+    border: none;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    left: 500px;
+}
+.nike2{
+    display: inline;
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 65px;
+    top: 30px;
+}
+.right{
+
+    position: fixed;
+    left: 500px;
+    top: 300px; 
+}
+
+.niketxt{
+    position: absolute;
+    display:flex;
+    left: 60px;
+    top: 30px;
+    width: 300px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
